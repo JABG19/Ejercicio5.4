@@ -1,3 +1,5 @@
+package com.ejercicio5;
+
 public class Triangulo implements Figura {
     private int base;
     private int altura;

@@ -1,3 +1,5 @@
+package com.ejercicio5;
+
 public class Circulo implements Figura {
     private int radio;
 
