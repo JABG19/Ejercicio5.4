@@ -1,0 +1,32 @@
+package com.ejercicio5;
+
+public class Cuadrado implements Figura{
+ private int lado;
+ /***
+ * Constructor
+ * @param lado
+ */
+ public Cuadrado(int lado) {
+ this.lado = lado;
+ }
+ /* Getters and Setters */
+ public int getLado() {
+ return lado;
+ }
+ public void setLado(int lado) {
+ this.lado = lado;
+ }
+ @Override
+ public String toString() {
+ return "Cuadrado{" + "lado=" + lado + '}';
+ }
+ /* Implementación de la interfaz */
+ @Override
+ public double calcularArea() {
+ return lado*lado;
+ }
+ @Override
+ public double calcularPerimetro() {
+ return 4*lado;
+}
+}
